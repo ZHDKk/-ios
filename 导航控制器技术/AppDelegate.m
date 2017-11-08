@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "VCRoot.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    //创建一个跟视图控制器
+    VCRoot *root = [[VCRoot alloc] init];
+    //创建导航控制器
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:root];
+    //将window跟视图设置为导航控制器
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

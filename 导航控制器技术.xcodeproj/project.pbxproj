@@ -15,6 +15,7 @@
 		F0D9CC801F4ED36D00A40DC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0D9CC7E1F4ED36D00A40DC1 /* LaunchScreen.storyboard */; };
 		F0D9CC8B1F4ED36D00A40DC1 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D9CC8A1F4ED36D00A40DC1 /* _______Tests.m */; };
 		F0D9CC961F4ED36D00A40DC1 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D9CC951F4ED36D00A40DC1 /* _______UITests.m */; };
+		F0D9CCA51F4ED3A100A40DC1 /* VCRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D9CCA41F4ED3A100A40DC1 /* VCRoot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F0D9CC911F4ED36D00A40DC1 /* 导航控制器技术UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "导航控制器技术UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D9CC951F4ED36D00A40DC1 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		F0D9CC971F4ED36D00A40DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0D9CCA31F4ED3A100A40DC1 /* VCRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCRoot.h; sourceTree = "<group>"; };
+		F0D9CCA41F4ED3A100A40DC1 /* VCRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCRoot.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				F0D9CC7C1F4ED36D00A40DC1 /* Assets.xcassets */,
 				F0D9CC7E1F4ED36D00A40DC1 /* LaunchScreen.storyboard */,
 				F0D9CC811F4ED36D00A40DC1 /* Info.plist */,
+				F0D9CCA31F4ED3A100A40DC1 /* VCRoot.h */,
+				F0D9CCA41F4ED3A100A40DC1 /* VCRoot.m */,
 				F0D9CC701F4ED36D00A40DC1 /* Supporting Files */,
 			);
 			path = "导航控制器技术";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0D9CCA51F4ED3A100A40DC1 /* VCRoot.m in Sources */,
 				F0D9CC781F4ED36D00A40DC1 /* ViewController.m in Sources */,
 				F0D9CC751F4ED36D00A40DC1 /* AppDelegate.m in Sources */,
 				F0D9CC721F4ED36D00A40DC1 /* main.m in Sources */,
